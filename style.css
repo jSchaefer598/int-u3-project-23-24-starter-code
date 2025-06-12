@@ -2,7 +2,9 @@
 
 
 .option-one-screen, 
-.option-two-screen, 
+.option-two-screen,
+.option-one-part-one,
+.option-one-part-two, 
 .option-one-end, 
 .option-two-end,
 .restart  {
@@ -58,6 +60,8 @@ body {
 /* Style the buttons container */
 .buttons {
     margin: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Style the option buttons */
